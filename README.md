@@ -3,8 +3,7 @@ I'll help you create a professional README.md for your portfolio. Here's a well-
 ```markdown
 # Prashun Mishra - Portfolio
 
-[![Portfolio](https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=react&logoColor=white)](https://your-portfolio-url.com)
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
+
 
 ## 🚀 About Me
 
