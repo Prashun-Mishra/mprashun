@@ -1,6 +1,4 @@
-I'll help you create a professional README.md for your portfolio. Here's a well-structured one:
 
-```markdown
 # Prashun Mishra - Portfolio
 
 
