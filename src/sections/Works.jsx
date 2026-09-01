@@ -117,6 +117,7 @@ const Works = () => {
             key={project.id}
             id="project"
             className="relative flex flex-col gap-1 py-5 cursor-pointer group md:gap-0"
+            onClick={() => project.href && window.open(project.href, "_blank")}
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave(index)}
           >

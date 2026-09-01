@@ -5,7 +5,9 @@ import ServiceSummary from "./sections/ServiceSummary";
 import Services from "./sections/Services";
 import ReactLenis from "lenis/react";
 import About from "./sections/About";
+import Experience from "./sections/Experience";
 import Works from "./sections/Works";
+import Credentials from "./sections/Credentials";
 import ContactSummary from "./sections/ContactSummary";
 import Contact from "./sections/Contact";
 import { useProgress } from "@react-three/drei";
@@ -45,7 +47,9 @@ const App = () => {
         <ServiceSummary />
         <Services />
         <About />
+        <Experience />
         <Works />
+        <Credentials />
         <ContactSummary />
         <Contact />
       </div>

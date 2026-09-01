@@ -81,41 +81,41 @@ export const servicesData = [
   {
     title: "Full-Stack Development",
     description:
-      "I build fast, modern, and scalable web apps with clean engineering, strong backend architecture, and smooth UI/UX. From SaaS platforms to dashboards — I deliver products built to convert and scale.",
+      "I build fast, modern, and scalable web apps with clean architecture, robust state management, and seamless UI/UX. From SaaS platforms to interactive dashboards — engineered for performance and conversion.",
     items: [
-      { title: "Backend Engineering", description: "(Node.js, Express, REST APIs, Microservices)" },
-      { title: "Frontend Development", description: "(React, Next.js, Tailwind, Interactive UI/UX)" },
-      { title: "Database Architecture", description: "(PostgreSQL, MongoDB, Redis, Optimized Queries)" },
+      { title: "Frontend Engineering", description: "(React 18/19, Next.js 15, TypeScript, Tailwind CSS, Zustand)" },
+      { title: "Backend & API Design", description: "(Node.js, Express, RESTful APIs, JWT Auth, Microservices)" },
+      { title: "Database Architecture", description: "(PostgreSQL, MongoDB, Prisma ORM, Mongoose, Redis)" },
     ],
   },
   {
-    title: "AI Integration & Automation",
+    title: "Agentic AI & RAG Systems",
     description:
-      "I integrate AI into business workflows — boosting productivity, automating tasks, and creating smart user experiences.",
+      "I design intelligent, context-grounded AI solutions — from autonomous agent workflows to private local-first RAG pipelines with source citations and embeddings.",
     items: [
-      { title: "LLM Integration", description: "(OpenAI, ChatGPT workflows, AI chatbots)" },
-      { title: "Automation & AI Tools", description: "(Custom AI assistants, knowledge bots, APIs)" },
-      { title: "LLM Fine-Tuning", description: "(Domain-specific training and prompt engineering)" },
+      { title: "Retrieval-Augmented Generation", description: "(Pinecone Vector DB, Gemini Embeddings, Document Chunking)" },
+      { title: "Local & Cloud LLMs", description: "(Local Ollama, Google Gemini 2.5/3.6, LLaMA 3.3 Groq, OpenAI)" },
+      { title: "Agentic Workflows", description: "(5-stage AI pipelines, Tool Calling, Autonomous Agents)" },
+    ],
+  },
+  {
+    title: "Backend & API Optimization",
+    description:
+      "High-throughput backend engineering with optimized database queries, containerized microservices, and rock-solid security implementations.",
+    items: [
+      { title: "Performance Tuning", description: "(Query optimization, Caching, 35%+ latency reduction)" },
+      { title: "Authentication & Security", description: "(JWT, NextAuth.js, Bcrypt, Role-Based Access Control, CORS)" },
+      { title: "Document & Media Pipelines", description: "(Multer, PDF extraction, OCR Tesseract, Sharp processing)" },
     ],
   },
   {
     title: "DevOps & Cloud Deployment",
     description:
-      "Secure & scalable deployments with CI/CD automation, containerization, and cloud platforms — ensuring smooth performance, uptime, and growth.",
+      "Streamlined containerization, continuous integration, and dependable cloud deployments ensuring maximum uptime and effortless scalability.",
     items: [
-      { title: "CI/CD Pipelines", description: "(GitHub Actions, Docker, Deployment automation)" },
-      { title: "Server Management", description: "(Linux, Nginx, Load balancing)" },
-      { title: "Cloud Hosting", description: "(Vercel, Render, AWS, Hostinger, Netlify)" },
-    ],
-  },
-  {
-    title: "Mobile & Modern Web Apps",
-    description:
-      "I create responsive and engaging apps with clean design, fast performance, and modern user experience — whether mobile or web.",
-    items: [
-      { title: "Cross-Platform Apps", description: "(React Native, Expo)" },
-      { title: "PWAs", description: "(Offline apps, Push notifications, Web install)" },
-      { title: "E-Commerce Systems", description: "(Payments, carts, orders, dashboards, inventory)" },
+      { title: "Containerization", description: "(Docker, Multi-stage builds, Environment isolation)" },
+      { title: "CI/CD & Version Control", description: "(GitHub Actions, Git workflows, Automated deployments)" },
+      { title: "Cloud Hosting", description: "(Vercel, Render, AWS, MongoDB Atlas, Hostinger)" },
     ],
   },
 ];
@@ -126,118 +126,92 @@ export const servicesData = [
 export const projects = [
 
   {
-  id: 1,
-  name: "Prepwise – AI Mock Interview Platform",
-  description:
-    "AI-powered mock interview platform with real-time voice conversations, instant feedback, and smart question generation. Users practice interviews with AI voice agents, track sessions, and get structured improvement insights.",
-  href: "https://github.com/Prashun-Mishra/ai_mock_interviews",
-  image: "/assets/projects/prepwise.jpg", // replace with your preview image
-  // bgImage: "/assets/backgrounds/ai.jpg",
-  bgImage: "/assets/backgrounds/blanket.jpg",
-  frameworks: [
-    { id: 1, name: "Next.js" },
-    { id: 2, name: "Firebase" },
-    { id: 3, name: "TailwindCSS" },
-    { id: 4, name: "Vapi AI" },
-    { id: 5, name: "Google Gemini" },
-  ],
-},
-
-  {
-  id: 2,
-  name: "Magic Social AI – AI Content Automation Platform",
-  description:
-    "An AI-powered social media assistant that generates content, manages posts, and provides performance insights. Built with Next.js, Prisma, and Gemini AI — includes dashboards, content editor, AI prompts, subscription system, and smart posting workflows.",
-  href: "https://github.com/Prashun-Mishra", // update if you push it live
-  image: "/assets/projects/magic-social-ai.jpg", // add screenshot
-  // bgImage: "/assets/backgrounds/ai-dashboard.jpg",
-  bgImage: "/assets/backgrounds/curtains.jpg",
-  frameworks: [
-    { id: 1, name: "Next.js 14" },
-    { id: 2, name: "TypeScript" },
-    { id: 3, name: "Prisma + PostgreSQL" },
-    { id: 4, name: "Clerk Auth" },
-    { id: 5, name: "Google Gemini AI" },
-    { id: 6, name: "Stripe Billing" },
-  ],
-},
-
- {
-  id: 3,
-  name: "BITBOOK – Community Blog Platform",
-  description:
-    "A campus-focused blogging platform where students can publish posts, share ideas, and collaborate. Features secure auth, rich content posting, user feeds, and real-time interactions — built to encourage student-driven knowledge sharing.",
-  href: "https://github.com/Prashun-Mishra/BITBook",
-  image: "/assets/projects/bitbook.jpg",
-  // bgImage: "/assets/backgrounds/office.jpg",
-  bgImage: "/assets/backgrounds/map.jpg",
-  frameworks: [
-    { id: 1, name: "MongoDB" },
-    { id: 2, name: "Express" },
-    { id: 3, name: "HTML5" },
-    { id: 4, name: "CSS3" },
-    { id: 5, name: "JS" },
-    { id: 6, name: "Node.js" },
-    { id: 7, name: "JWT Auth" },
-  ],
-},
-
-   {
-    id: 4,
-    name: "Lumen – EV Charging Locator",
+    id: 1,
+    name: "College-RAG-AI – Intelligent Assistant Platform",
     description:
-      "EV charging station finder with real-time availability and booking. Integrated Here Maps + OpenCharge API, user auth, and live location tracking.",
-    href: "https://github.com/Prashun-Mishra/Lumen",
-    image: "/assets/projects/lumen.jpg", 
-    // bgImage: "/assets/backgrounds/map.jpg",
-    bgImage: "/assets/backgrounds/poster.jpg",
+      "An intelligent, production-ready Retrieval-Augmented Generation (RAG) college assistant platform. Students ask natural language questions and receive accurate, context-grounded answers extracted strictly from official college documents with precise source citations, page numbers, and relevance metrics.",
+    href: "https://github.com/Prashun-Mishra/College-RAG-AI",
+    image: "/assets/projects/CollegeRagAI.png",
+    bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "MongoDB" },
-      { id: 2, name: "Express" },
-      { id: 3, name: "HTML5" },
-      { id: 4, name: "CSS3" },
-      { id: 5, name: "JS" },
-      { id: 6, name: "Node.js" },
-      { id: 7, name: "Rest API" },
+      { id: 1, name: "Next.js 15" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Pinecone DB" },
+      { id: 4, name: "Gemini AI" },
+      { id: 5, name: "Node / Express" },
+      { id: 6, name: "MongoDB" },
+    ],
+  },
+  {
+    id: 2,
+    name: "RakshAI – AI-Powered Emergency Response",
+    description:
+      "An intelligent, real-time emergency triage and first-aid response platform designed to assist users during critical first minutes of a medical emergency. Powered by Google Gemini 2.5/2.0 Flash, RakshAI assesses urgent situations, analyzes visible injury photos, locates nearby emergency services, and generates downloadable PDF clinical summary reports.",
+    href: "https://github.com/Prashun-Mishra/RakshAI",
+    image: "/assets/projects/RakshAI.png",
+    bgImage: "/assets/backgrounds/curtains.jpg",
+    frameworks: [
+      { id: 1, name: "Next.js 15" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Gemini Vision" },
+      { id: 4, name: "MongoDB" },
+      { id: 5, name: "Tailwind CSS" },
+      { id: 6, name: "Google Places" },
     ],
   },
 
   {
-  id: 5,
-  name: "AI ProctorGuard – Real-Time AI Video Proctoring System",
-  description:
-    "A real-time AI-powered proctoring system for online interviews and exams. Detects cheating behavior like face absence, multiple persons, object usage, and gaze deviation, with automated integrity scoring and detailed violation reports.",
-  href: "https://github.com/Prashun-Mishra/video-proctoring-system",
-  image: "/assets/projects/ai-proctor.jpg", // replace with your screenshot
-  // bgImage: "/assets/backgrounds/security.jpg",
-  bgImage: "/assets/backgrounds/table.jpg",
-  frameworks: [
-    { id: 1, name: "Node.js" },
-    { id: 2, name: "Express" },
-    { id: 3, name: "MongoDB" },
-    { id: 4, name: "TensorFlow.js" },
-    { id: 5, name: "Socket.io" },
-    { id: 6, name: "WebRTC" },
-  ],
-},
+    id: 3,
+    name: "NeuroFlow AI – Agentic Document Intelligence",
+    description:
+      "A robust, local-first document intelligence workspace built on the MERN stack. Features isolated workspaces, multi-format document processing (PDF, DOCX, CSV, OCR), and a 5-stage agentic RAG pipeline powered by local Ollama with deterministic offline fallback.",
+    href: "https://github.com/Prashun-Mishra/NeuroFlow-",
+    image: "/assets/projects/NeuroFlowAI.png",
+    bgImage: "/assets/backgrounds/map.jpg",
+    frameworks: [
+      { id: 1, name: "React 18 (Vite)" },
+      { id: 2, name: "Node / Express" },
+      { id: 3, name: "MongoDB" },
+      { id: 4, name: "Local Ollama" },
+      { id: 5, name: "Agentic RAG" },
+      { id: 6, name: "TanStack Query" },
+    ],
+  },
+  {
+    id: 4,
+    name: "BuildIt — AI-Powered Web App Builder",
+    description:
+      "An elite full-stack AI website builder that transforms natural language prompts into stunning, production-ready web applications. Powered by Google Gemini AI and MERN stack with live preview, custom code editing, and full authentication.",
+    href: "https://build-it-ai-powered-web-app-builder.vercel.app/",
+    image: "/assets/projects/Built-It.png",
+    bgImage: "/assets/backgrounds/poster.jpg",
+    frameworks: [
+      { id: 1, name: "React.js" },
+      { id: 2, name: "Node / Express" },
+      { id: 3, name: "MongoDB" },
+      { id: 4, name: "Google GenAI" },
+      { id: 5, name: "Lenis Scroll" },
+      { id: 6, name: "Vercel / Render" },
+    ],
+  },
 
- {
-  id: 6,
-  name: "Mini-Spotify – Web Music Player",
-  description:
-    "A browser-based music player inspired by Spotify, allowing users to play, pause, and navigate songs with a clean UI and smooth player controls. Focused on core music playback functionality and UI interactions.",
-  href: "https://github.com/Prashun-Mishra/SpotifyClone",
-  image: "/assets/projects/spotify-clone.jpg", // add screenshot
-  // bgImage: "/assets/backgrounds/music.jpg",
-  bgImage: "/assets/backgrounds/curtains.jpg",
-  frameworks: [
-    { id: 1, name: "HTML" },
-    { id: 2, name: "CSS" },
-    { id: 3, name: "JavaScript" },
-    { id: 4, name: "Audio API" },
-  ],
-},
-
+  {
+    id: 5,
+    name: "Professor Oak Dev Mentor — AI Coding Chatbot",
+    description:
+      "An AI-powered developer mentorship chatbot with a retro Pokémon FireRed/LeafGreen aesthetic. Chat with Professor Oak — a wise, playful mentor who guides you through DSA, Web Development, project building, and career growth. Built with Next.js 16, Groq (LLaMA 3.3 70B), custom pixel-art UI, typewriter animations, retro 8-bit sound effects, and a trainer XP progression system.",
+    href: "https://professor-oak-lab-your-developer-mentor-8n50wq54z.vercel.app/",
+    image: "/assets/projects/Professor-Oak.png",
+    bgImage: "/assets/backgrounds/table.jpg",
+    frameworks: [
+      { id: 1, name: "Next.js 16" },
+      { id: 2, name: "LLaMA 3.3 70B" },
+      { id: 3, name: "Groq AI" },
+      { id: 4, name: "Tailwind CSS v4" },
+      { id: 5, name: "Web Audio API" },
+      { id: 6, name: "Vercel" },
+    ],
+  },
 ];
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/mprashun" },
@@ -247,4 +221,77 @@ export const socials = [
   },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/prashun-mishra-b98b9724b/" },
   { name: "GitHub", href: "https://github.com/Prashun-Mishra" },
+];
+
+export const experiences = [
+  {
+    id: 1,
+    role: "Backend Development Intern (API Development)",
+    company: "Yahweh Software Solutions",
+    location: "Bangalore, Remote",
+    period: "05/2025 – 09/2025",
+    type: "Internship",
+    description:
+      "Engineered and optimized high-scale RESTful APIs for ERP modules. Reduced backend response time by 35% via PostgreSQL query indexing, connection pooling, and refined endpoint architecture. Containerized backend microservices using Docker to ensure deployment consistency and high test coverage across remote environments.",
+    highlights: [
+      "Optimized PostgreSQL queries & REST API design to achieve 35% faster response times",
+      "Containerized core backend services with Docker for scalable, seamless staging & deployment",
+      "Collaborated on enterprise ERP module integrations with robust error handling and JWT authentication",
+    ],
+    technologies: ["Node.js", "Express.js", "PostgreSQL", "REST APIs", "Docker", "Git", "Postman"],
+  },
+];
+
+export const certifications = [
+  {
+    id: 1,
+    title: "McKinsey Forward Program",
+    issuer: "McKinsey & Company",
+    date: "2025",
+    badge: "Leadership & Strategy",
+    description: "Practical digital leadership, problem-solving, structured business communication, and agile adaptability in fast-paced tech environments.",
+  },
+  {
+    id: 2,
+    title: "NextWave CCBP 4.0 Academy",
+    issuer: "NextWave",
+    date: "2024",
+    badge: "Full-Stack & DSA",
+    description: "Comprehensive software engineering curriculum covering industry-standard Full-Stack development, advanced Data Structures & Algorithms, and modern React patterns.",
+  },
+  {
+    id: 3,
+    title: "Google AI Essentials V1",
+    issuer: "Coursera / Google",
+    date: "2024",
+    badge: "Generative AI",
+    description: "Core fundamentals of Generative AI, LLM prompting paradigms, AI workflow automation, and ethical/responsible AI application design.",
+  },
+  {
+    id: 4,
+    title: "Summer Analytics 2025 Capstone",
+    issuer: "IIT Guwahati",
+    date: "2025",
+    badge: "Machine Learning",
+    description: "End-to-end Machine Learning model development, exploratory data analysis, predictive pipelines, and real-world data science applications.",
+  },
+];
+
+export const achievements = [
+  {
+    id: 1,
+    title: "Tech Club Coordinator",
+    organization: "Bhilai Institute of Technology",
+    date: "12/2024",
+    tag: "Leadership",
+    description: "Led the official institute technical community, orchestrated hackathons, coding bootcamps, and technical workshops mentoring over 200+ engineering students in web development and software engineering.",
+  },
+  {
+    id: 2,
+    title: "Top 30 Innovator",
+    organization: "Hack The Space 2.0",
+    date: "12/2023",
+    tag: "National Hackathon",
+    description: "Selected among the top 30 innovative solutions nationwide out of hundreds of competing developer teams for building a high-impact technology product under rapid 36-hour sprint conditions.",
+  },
 ];
